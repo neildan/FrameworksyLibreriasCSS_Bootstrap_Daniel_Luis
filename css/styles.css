@@ -1,0 +1,67 @@
+/* Degradados de color */
+body {
+    background: #d4e4ef;
+    background: -moz-linear-gradient(top, #d4e4ef 0%, #86aecc 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #d4e4ef), color-stop(100%, #86aecc));
+    background: -webkit-linear-gradient(top, #d4e4ef 0%, #86aecc 100%);
+    background: -o-linear-gradient(top, #d4e4ef 0%, #86aecc 100%);
+    background: -ms-linear-gradient(top, #d4e4ef 0%, #86aecc 100%);
+    background: linear-gradient(to bottom, #d4e4ef 0%, #86aecc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=0 );
+}
+header {
+    background: #0d3571;
+    background: -moz-linear-gradient(left, #0d3571 0%, #499bea 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #0d3571), color-stop(100%, #499bea));
+    background: -webkit-linear-gradient(left, #0d3571 0%, #499bea 100%);
+    background: -o-linear-gradient(left, #0d3571 0%, #499bea 100%);
+    background: -ms-linear-gradient(left, #0d3571 0%, #499bea 100%);
+    background: linear-gradient(to right, #0d3571 0%, #499bea 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d3571', endColorstr='#499bea', GradientType=1 );
+}
+/*
+    Imagen Circular
+    (No está disponible en Bootstrap 4.4)
+*/
+.img-circle {
+    border-radius: 50%;
+}
+/* Estilos search */
+.form-search input {
+    width: 70% !important;
+}
+.form-search button {
+    width: 30% !important;
+}
+
+/*Estilos adaptativos*/
+
+/* Versión Móvil */
+@media (max-width: 575px) {
+    .logo {
+        margin: 2%;
+        width: 30%;
+    }
+    .iconos {
+        margin-top: -10%;
+    }
+    .iconos img {
+        margin: 0.2em;
+        width: 7%;
+    }
+}
+
+/* Version Escritorio */
+@media (min-width: 576px) {
+    .logo {
+        margin: 2%;
+        width: 20%;
+    }
+    .iconos {
+        margin-top: 10%;
+    }
+    .iconos img {
+        margin: 0.3em;
+        width: 10%;
+    }
+}
