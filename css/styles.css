@@ -26,11 +26,11 @@ header {
 .img-circle {
     border-radius: 50%;
 }
-/* Estilos search */
-.form-search input {
+/* Estilos inputs */
+.form-width input, textarea {
     width: 70% !important;
 }
-.form-search button {
+.form-width button {
     width: 30% !important;
 }
 
